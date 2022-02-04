@@ -1,0 +1,15 @@
+.primary-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.primary-nav a:hover {
+  color: limegreen;
+  background-color: rgb(41, 40, 40);
+}
+
+@media (min-width: 40em) {
+  .primary-nav a:hover {
+    background-color: transparent;
+  }
+}

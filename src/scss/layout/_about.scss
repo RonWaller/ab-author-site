@@ -1,0 +1,32 @@
+.about-bg {
+  background: #000 url('/src/img/dariusz-sankowski-sm-640.jpg') no-repeat 25%;
+  background-size: cover;
+}
+
+.author-image {
+  width: 60%;
+  max-width: 25rem;
+  margin: 0 auto;
+  // padding-top: 1em;
+
+  & img {
+    // width: 80%;
+    // height: 80%;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid #000;
+  }
+}
+
+.author-content {
+  color: white;
+
+  & p {
+    padding-bottom: 0.5rem;
+  }
+}
+
+.about-author {
+  text-align: center;
+  padding: 1rem;
+}

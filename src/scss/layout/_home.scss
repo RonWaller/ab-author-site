@@ -1,0 +1,103 @@
+.home-bg {
+  background: #000 url('/src/img/pexels-jiarong-deng-sm-640.jpg') no-repeat 25%;
+  background-size: cover;
+}
+
+.preorder_book {
+  min-width: 50%;
+  max-width: 20rem;
+  margin: 0 auto;
+  padding-inline: 3rem;
+}
+
+.book_description {
+  color: white;
+
+  & p {
+    padding: 1rem;
+    font-weight: var(--fw-light-300);
+    line-height: 1.4;
+  }
+}
+
+.newsletter {
+  // display: flex;
+  // flex-direction: column;
+  color: white;
+
+  & h2 {
+    text-align: center;
+  }
+  & p {
+    text-align: center;
+    font-size: 0.875rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-name {
+  display: flex;
+  // gap: 0.5rem;
+
+  & label {
+    width: 30%;
+  }
+
+  & input {
+    width: 100%;
+  }
+}
+
+.form-email {
+  width: 100%;
+  display: flex;
+  // gap: 0.5rem;
+
+  & label {
+    width: 30%;
+  }
+
+  & input {
+    width: 100%;
+  }
+}
+
+.form-btn input {
+  width: 100%;
+  background-color: red;
+  color: white;
+  border: none;
+
+  &:hover {
+    background-color: white;
+    color: red;
+  }
+}
+
+@media (min-width: 40em) {
+  .hero {
+    width: 100%;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .preorder_book {
+    padding-inline: 1rem;
+  }
+
+  .newsletter {
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
